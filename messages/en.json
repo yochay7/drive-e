@@ -1,0 +1,185 @@
+{
+  "common": {
+    "learnMore": "Learn More",
+    "compare": "Compare",
+    "viewDetails": "View Details",
+    "addToComparison": "Add to Comparison",
+    "removeFromComparison": "Remove from Comparison",
+    "readReviews": "Read Reviews",
+    "writeReview": "Write a Review",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "currency": "USD",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noResults": "No results found"
+  },
+  "nav": {
+    "home": "Home",
+    "vehicles": "All Vehicles",
+    "compare": "Compare",
+    "brands": "Brands",
+    "about": "About",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover Your Perfect Electric Vehicle",
+      "subtitle": "Compare, review, and find the best electric car for your lifestyle. Comprehensive specs, real reviews, and the latest models all in one place.",
+      "cta": "Browse All EVs",
+      "ctaSecondary": "Compare Models"
+    },
+    "featured": {
+      "title": "Featured Electric Vehicles",
+      "subtitle": "Explore the most popular and highly-rated EVs"
+    },
+    "stats": {
+      "title": "Why Choose Electric?",
+      "vehicles": "Electric Models",
+      "brands": "Leading Brands",
+      "reviews": "User Reviews",
+      "savings": "Average Annual Savings"
+    }
+  },
+  "vehicles": {
+    "title": "All Electric Vehicles",
+    "subtitle": "Browse our comprehensive database of electric cars",
+    "filters": {
+      "title": "Filters",
+      "brand": "Brand",
+      "allBrands": "All Brands",
+      "priceRange": "Price Range",
+      "minPrice": "Min Price",
+      "maxPrice": "Max Price",
+      "range": "Minimum Range (EPA)",
+      "miles": "miles",
+      "seats": "Seats",
+      "drivetrain": "Drivetrain",
+      "clearAll": "Clear All"
+    },
+    "sort": {
+      "label": "Sort by",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "rangeDesc": "Range: High to Low",
+      "ratingDesc": "Rating: High to Low",
+      "newest": "Newest First"
+    },
+    "specs": {
+      "range": "Range",
+      "acceleration": "0-60 mph",
+      "topSpeed": "Top Speed",
+      "price": "Starting at",
+      "seats": "Seats",
+      "battery": "Battery",
+      "charging": "DC Fast Charging",
+      "drivetrain": "Drivetrain"
+    }
+  },
+  "detail": {
+    "specifications": "Specifications",
+    "features": "Features",
+    "safety": "Safety",
+    "reviews": "Reviews",
+    "gallery": "Gallery",
+    "battery": {
+      "title": "Battery",
+      "capacity": "Capacity",
+      "type": "Type"
+    },
+    "range": {
+      "title": "Range",
+      "epa": "EPA",
+      "wltp": "WLTP"
+    },
+    "performance": {
+      "title": "Performance",
+      "topSpeed": "Top Speed",
+      "acceleration": "0-60 mph",
+      "horsepower": "Horsepower",
+      "torque": "Torque"
+    },
+    "charging": {
+      "title": "Charging",
+      "dcFast": "DC Fast Charging",
+      "maxSpeed": "Max Speed",
+      "time": "10-80% Time"
+    },
+    "dimensions": {
+      "title": "Dimensions",
+      "seats": "Seats",
+      "cargo": "Cargo Space",
+      "weight": "Weight"
+    },
+    "safetyRating": "Safety Rating",
+    "averageRating": "Average Rating",
+    "basedOn": "based on {count} reviews",
+    "availability": "Availability",
+    "available": "Available Now",
+    "comingSoon": "Coming Soon",
+    "preOrder": "Pre-Order"
+  },
+  "compare": {
+    "title": "Compare Electric Vehicles",
+    "subtitle": "Add up to 3 vehicles to compare side by side",
+    "empty": "No vehicles selected for comparison",
+    "emptyDescription": "Browse our vehicle catalog and add EVs to compare",
+    "selectVehicles": "Select Vehicles to Compare",
+    "comparing": "Comparing {count} vehicles",
+    "addMore": "Add another vehicle",
+    "clear": "Clear all"
+  },
+  "brands": {
+    "title": "Electric Vehicle Brands",
+    "subtitle": "Browse vehicles by manufacturer",
+    "model": "model",
+    "models": "models",
+    "avgPrice": "Avg. Price:",
+    "maxRange": "Max Range:",
+    "viewModels": "View Models"
+  },
+  "reviews": {
+    "title": "Customer Reviews",
+    "verified": "Verified Purchase",
+    "helpful": "Helpful",
+    "pros": "Pros",
+    "cons": "Cons",
+    "rating": "Rating",
+    "outOf": "out of 5"
+  },
+  "footer": {
+    "tagline": "Your trusted source for electric vehicle information",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "social": "Follow Us",
+    "copyright": "© 2024 Drive-E. All rights reserved."
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle Theme"
+  },
+  "about": {
+    "title": "About Drive-E",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Drive-E is dedicated to helping you find the perfect electric vehicle. We provide comprehensive, up-to-date information on all available electric vehicles, making it easy to compare specifications, features, and pricing across different models and manufacturers."
+    },
+    "features": {
+      "title": "What We Offer",
+      "compare": "Side-by-side comparison of up to 3 vehicles with detailed specifications",
+      "specs": "Comprehensive specs including range, performance, charging, and pricing",
+      "multilingual": "Multi-language support for global accessibility",
+      "darkMode": "Dark mode support for comfortable viewing"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Have questions or suggestions? We'd love to hear from you. Contact us at info@drive-e.com"
+    }
+  }
+}
+

@@ -1,0 +1,158 @@
+{
+  "common": {
+    "learnMore": "Saber Más",
+    "compare": "Comparar",
+    "viewDetails": "Ver Detalles",
+    "addToComparison": "Agregar a Comparación",
+    "removeFromComparison": "Quitar de Comparación",
+    "readReviews": "Leer Reseñas",
+    "writeReview": "Escribir Reseña",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "currency": "USD",
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "noResults": "No se encontraron resultados"
+  },
+  "nav": {
+    "home": "Inicio",
+    "vehicles": "Todos los Vehículos",
+    "compare": "Comparar",
+    "brands": "Marcas",
+    "about": "Acerca de",
+    "language": "Idioma"
+  },
+  "home": {
+    "hero": {
+      "title": "Descubre Tu Vehículo Eléctrico Perfecto",
+      "subtitle": "Compara, revisa y encuentra el mejor auto eléctrico para tu estilo de vida. Especificaciones completas, reseñas reales y los últimos modelos en un solo lugar.",
+      "cta": "Explorar Todos los VE",
+      "ctaSecondary": "Comparar Modelos"
+    },
+    "featured": {
+      "title": "Vehículos Eléctricos Destacados",
+      "subtitle": "Explora los VE más populares y mejor valorados"
+    },
+    "stats": {
+      "title": "¿Por Qué Elegir Eléctrico?",
+      "vehicles": "Modelos Eléctricos",
+      "brands": "Marcas Líderes",
+      "reviews": "Reseñas de Usuarios",
+      "savings": "Ahorro Anual Promedio"
+    }
+  },
+  "vehicles": {
+    "title": "Todos los Vehículos Eléctricos",
+    "subtitle": "Explora nuestra base de datos completa de autos eléctricos",
+    "filters": {
+      "title": "Filtros",
+      "brand": "Marca",
+      "allBrands": "Todas las Marcas",
+      "priceRange": "Rango de Precio",
+      "minPrice": "Precio Mínimo",
+      "maxPrice": "Precio Máximo",
+      "range": "Autonomía Mínima (EPA)",
+      "miles": "millas",
+      "seats": "Asientos",
+      "drivetrain": "Tracción",
+      "clearAll": "Limpiar Todo"
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "priceAsc": "Precio: Menor a Mayor",
+      "priceDesc": "Precio: Mayor a Menor",
+      "rangeDesc": "Autonomía: Mayor a Menor",
+      "ratingDesc": "Calificación: Mayor a Menor",
+      "newest": "Más Recientes"
+    },
+    "specs": {
+      "range": "Autonomía",
+      "acceleration": "0-60 mph",
+      "topSpeed": "Velocidad Máxima",
+      "price": "Desde",
+      "seats": "Asientos",
+      "battery": "Batería",
+      "charging": "Carga Rápida DC",
+      "drivetrain": "Tracción"
+    }
+  },
+  "detail": {
+    "specifications": "Especificaciones",
+    "features": "Características",
+    "safety": "Seguridad",
+    "reviews": "Reseñas",
+    "gallery": "Galería",
+    "battery": {
+      "title": "Batería",
+      "capacity": "Capacidad",
+      "type": "Tipo"
+    },
+    "range": {
+      "title": "Autonomía",
+      "epa": "EPA",
+      "wltp": "WLTP"
+    },
+    "performance": {
+      "title": "Rendimiento",
+      "topSpeed": "Velocidad Máxima",
+      "acceleration": "0-60 mph",
+      "horsepower": "Caballos de Fuerza",
+      "torque": "Torque"
+    },
+    "charging": {
+      "title": "Carga",
+      "dcFast": "Carga Rápida DC",
+      "maxSpeed": "Velocidad Máxima",
+      "time": "Tiempo 10-80%"
+    },
+    "dimensions": {
+      "title": "Dimensiones",
+      "seats": "Asientos",
+      "cargo": "Espacio de Carga",
+      "weight": "Peso"
+    },
+    "safetyRating": "Calificación de Seguridad",
+    "averageRating": "Calificación Promedio",
+    "basedOn": "basado en {count} reseñas",
+    "availability": "Disponibilidad",
+    "available": "Disponible Ahora",
+    "comingSoon": "Próximamente",
+    "preOrder": "Pre-Orden"
+  },
+  "compare": {
+    "title": "Comparar Vehículos Eléctricos",
+    "subtitle": "Agrega hasta 3 vehículos para comparar lado a lado",
+    "empty": "No hay vehículos seleccionados para comparar",
+    "emptyDescription": "Explora nuestro catálogo de vehículos y agrega VE para comparar",
+    "selectVehicles": "Seleccionar Vehículos para Comparar",
+    "comparing": "Comparando {count} vehículos",
+    "addMore": "Agregar otro vehículo",
+    "clear": "Limpiar todo"
+  },
+  "reviews": {
+    "title": "Reseñas de Clientes",
+    "verified": "Compra Verificada",
+    "helpful": "Útil",
+    "pros": "Pros",
+    "cons": "Contras",
+    "rating": "Calificación",
+    "outOf": "de 5"
+  },
+  "footer": {
+    "tagline": "Tu fuente confiable de información sobre vehículos eléctricos",
+    "quickLinks": "Enlaces Rápidos",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contáctanos",
+    "social": "Síguenos",
+    "copyright": "© 2024 Drive-E. Todos los derechos reservados."
+  },
+  "theme": {
+    "light": "Modo Claro",
+    "dark": "Modo Oscuro",
+    "toggle": "Cambiar Tema"
+  }
+}
+

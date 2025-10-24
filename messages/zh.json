@@ -1,0 +1,158 @@
+{
+  "common": {
+    "learnMore": "了解更多",
+    "compare": "比较",
+    "viewDetails": "查看详情",
+    "addToComparison": "添加到比较",
+    "removeFromComparison": "从比较中移除",
+    "readReviews": "阅读评论",
+    "writeReview": "撰写评论",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "currency": "USD",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "noResults": "未找到结果"
+  },
+  "nav": {
+    "home": "首页",
+    "vehicles": "所有车辆",
+    "compare": "比较",
+    "brands": "品牌",
+    "about": "关于",
+    "language": "语言"
+  },
+  "home": {
+    "hero": {
+      "title": "发现您的完美电动汽车",
+      "subtitle": "比较、评论并找到最适合您生活方式的电动汽车。全面的规格、真实的评论和最新的车型，尽在一处。",
+      "cta": "浏览所有电动车",
+      "ctaSecondary": "比较车型"
+    },
+    "featured": {
+      "title": "精选电动汽车",
+      "subtitle": "探索最受欢迎和评分最高的电动车"
+    },
+    "stats": {
+      "title": "为什么选择电动？",
+      "vehicles": "电动车型",
+      "brands": "领先品牌",
+      "reviews": "用户评论",
+      "savings": "平均年节省"
+    }
+  },
+  "vehicles": {
+    "title": "所有电动汽车",
+    "subtitle": "浏览我们全面的电动汽车数据库",
+    "filters": {
+      "title": "筛选",
+      "brand": "品牌",
+      "allBrands": "所有品牌",
+      "priceRange": "价格范围",
+      "minPrice": "最低价格",
+      "maxPrice": "最高价格",
+      "range": "最低续航（EPA）",
+      "miles": "英里",
+      "seats": "座位",
+      "drivetrain": "驱动方式",
+      "clearAll": "清除全部"
+    },
+    "sort": {
+      "label": "排序方式",
+      "priceAsc": "价格：从低到高",
+      "priceDesc": "价格：从高到低",
+      "rangeDesc": "续航：从高到低",
+      "ratingDesc": "评分：从高到低",
+      "newest": "最新优先"
+    },
+    "specs": {
+      "range": "续航",
+      "acceleration": "0-60英里加速",
+      "topSpeed": "最高速度",
+      "price": "起价",
+      "seats": "座位",
+      "battery": "电池",
+      "charging": "直流快充",
+      "drivetrain": "驱动方式"
+    }
+  },
+  "detail": {
+    "specifications": "规格参数",
+    "features": "功能特点",
+    "safety": "安全",
+    "reviews": "评论",
+    "gallery": "图库",
+    "battery": {
+      "title": "电池",
+      "capacity": "容量",
+      "type": "类型"
+    },
+    "range": {
+      "title": "续航",
+      "epa": "EPA",
+      "wltp": "WLTP"
+    },
+    "performance": {
+      "title": "性能",
+      "topSpeed": "最高速度",
+      "acceleration": "0-60英里加速",
+      "horsepower": "马力",
+      "torque": "扭矩"
+    },
+    "charging": {
+      "title": "充电",
+      "dcFast": "直流快充",
+      "maxSpeed": "最大速度",
+      "time": "10-80%时间"
+    },
+    "dimensions": {
+      "title": "尺寸",
+      "seats": "座位",
+      "cargo": "载货空间",
+      "weight": "重量"
+    },
+    "safetyRating": "安全评级",
+    "averageRating": "平均评分",
+    "basedOn": "基于{count}条评论",
+    "availability": "可用性",
+    "available": "现在可用",
+    "comingSoon": "即将推出",
+    "preOrder": "预订"
+  },
+  "compare": {
+    "title": "比较电动汽车",
+    "subtitle": "添加最多3辆车进行并排比较",
+    "empty": "未选择要比较的车辆",
+    "emptyDescription": "浏览我们的车辆目录并添加电动车进行比较",
+    "selectVehicles": "选择要比较的车辆",
+    "comparing": "正在比较{count}辆车",
+    "addMore": "添加另一辆车",
+    "clear": "清除全部"
+  },
+  "reviews": {
+    "title": "客户评论",
+    "verified": "已验证购买",
+    "helpful": "有帮助",
+    "pros": "优点",
+    "cons": "缺点",
+    "rating": "评分",
+    "outOf": "满分5分"
+  },
+  "footer": {
+    "tagline": "您值得信赖的电动汽车信息来源",
+    "quickLinks": "快速链接",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们",
+    "social": "关注我们",
+    "copyright": "© 2024 Drive-E. 保留所有权利。"
+  },
+  "theme": {
+    "light": "浅色模式",
+    "dark": "深色模式",
+    "toggle": "切换主题"
+  }
+}
+
