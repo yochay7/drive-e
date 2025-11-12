@@ -163,6 +163,33 @@
     "light": "Heller Modus",
     "dark": "Dunkler Modus",
     "toggle": "Thema Wechseln"
+  },
+  "brands": {
+    "title": "Elektrofahrzeug Marken",
+    "subtitle": "Fahrzeuge nach Hersteller durchsuchen",
+    "model": "Modell",
+    "models": "Modelle",
+    "avgPrice": "Durchschn. Preis:",
+    "maxRange": "Max. Reichweite:",
+    "viewModels": "Modelle Ansehen"
+  },
+  "about": {
+    "title": "Über Drive-E",
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Drive-E widmet sich der Aufgabe, Ihnen zu helfen, das perfekte Elektrofahrzeug zu finden. Wir bieten umfassende, aktuelle Informationen über alle verfügbaren Elektrofahrzeuge und erleichtern den Vergleich von Spezifikationen, Funktionen und Preisen verschiedener Modelle und Hersteller."
+    },
+    "features": {
+      "title": "Was Wir Bieten",
+      "compare": "Direkter Vergleich von bis zu 3 Fahrzeugen mit detaillierten Spezifikationen",
+      "specs": "Umfassende Spezifikationen einschließlich Reichweite, Leistung, Laden und Preise",
+      "multilingual": "Mehrsprachige Unterstützung für globale Zugänglichkeit",
+      "darkMode": "Dark-Mode-Unterstützung für komfortables Betrachten"
+    },
+    "contact": {
+      "title": "Kontaktieren Sie Uns",
+      "description": "Haben Sie Fragen oder Anregungen? Wir würden uns freuen, von Ihnen zu hören. Kontaktieren Sie uns unter info@drive-e.com"
+    }
   }
 }
 

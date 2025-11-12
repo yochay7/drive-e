@@ -163,6 +163,33 @@
     "light": "浅色模式",
     "dark": "深色模式",
     "toggle": "切换主题"
+  },
+  "brands": {
+    "title": "电动汽车品牌",
+    "subtitle": "按制造商浏览车辆",
+    "model": "型号",
+    "models": "型号",
+    "avgPrice": "平均价格：",
+    "maxRange": "最大续航：",
+    "viewModels": "查看型号"
+  },
+  "about": {
+    "title": "关于 Drive-E",
+    "mission": {
+      "title": "我们的使命",
+      "description": "Drive-E 致力于帮助您找到完美的电动汽车。我们提供全面、最新的所有可用电动汽车信息，让您轻松比较不同型号和制造商的规格、功能和价格。"
+    },
+    "features": {
+      "title": "我们提供什么",
+      "compare": "最多 3 辆车的详细规格并排比较",
+      "specs": "包括续航、性能、充电和价格在内的全面规格",
+      "multilingual": "多语言支持，全球可访问",
+      "darkMode": "深色模式支持，舒适查看"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "有问题或建议？我们很乐意听取您的意见。请通过 info@drive-e.com 联系我们"
+    }
   }
 }
 

@@ -1,10 +1,12 @@
 import Link from 'next/link';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getAllBrands, getEVsByBrand } from '@/data/evs';
 import { BoltIcon } from '@heroicons/react/24/outline';
 
 export default async function BrandsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
+  
   const t = await getTranslations('brands');
   const brands = getAllBrands();
 

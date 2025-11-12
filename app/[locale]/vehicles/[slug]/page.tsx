@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getEVBySlug, evDatabase } from '@/data/evs';
 import {
   BoltIcon,
@@ -37,6 +37,7 @@ export default async function VehicleDetailPage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   
   const ev = getEVBySlug(slug);
 
