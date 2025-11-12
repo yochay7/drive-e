@@ -122,13 +122,23 @@
   },
   "compare": {
     "title": "Compare Electric Vehicles",
-    "subtitle": "Add up to 3 vehicles to compare side by side",
+    "subtitle": "Add up to 5 vehicles to compare side by side",
     "empty": "No vehicles selected for comparison",
     "emptyDescription": "Browse our vehicle catalog and add EVs to compare",
     "selectVehicles": "Select Vehicles to Compare",
     "comparing": "Comparing {count} vehicles",
     "addMore": "Add another vehicle",
-    "clear": "Clear all"
+    "clear": "Clear all",
+    "searchPlaceholder": "Search by brand or model...",
+    "noResults": "No vehicles found",
+    "specifications": "Specifications",
+    "pricing": "Pricing",
+    "basePrice": "Base Price",
+    "maxPrice": "Maximum Price",
+    "ratingSafety": "Rating & Safety",
+    "batteryRange": "Battery & Range",
+    "status": "Status",
+    "markets": "Available Markets"
   },
   "brands": {
     "title": "Electric Vehicle Brands",

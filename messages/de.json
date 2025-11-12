@@ -122,13 +122,23 @@
   },
   "compare": {
     "title": "Elektrofahrzeuge Vergleichen",
-    "subtitle": "Fügen Sie bis zu 3 Fahrzeuge zum Vergleich hinzu",
+    "subtitle": "Fügen Sie bis zu 5 Fahrzeuge zum Vergleich hinzu",
     "empty": "Keine Fahrzeuge zum Vergleich ausgewählt",
     "emptyDescription": "Durchsuchen Sie unseren Fahrzeugkatalog und fügen Sie EVs zum Vergleich hinzu",
     "selectVehicles": "Fahrzeuge zum Vergleichen Auswählen",
     "comparing": "{count} Fahrzeuge werden verglichen",
     "addMore": "Weiteres Fahrzeug hinzufügen",
-    "clear": "Alles löschen"
+    "clear": "Alles löschen",
+    "searchPlaceholder": "Nach Marke oder Modell suchen...",
+    "noResults": "Keine Fahrzeuge gefunden",
+    "specifications": "Spezifikationen",
+    "pricing": "Preisgestaltung",
+    "basePrice": "Basispreis",
+    "maxPrice": "Höchstpreis",
+    "ratingSafety": "Bewertung und Sicherheit",
+    "batteryRange": "Batterie und Reichweite",
+    "status": "Status",
+    "markets": "Verfügbare Märkte"
   },
   "reviews": {
     "title": "Kundenbewertungen",

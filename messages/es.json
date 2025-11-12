@@ -122,13 +122,23 @@
   },
   "compare": {
     "title": "Comparar Vehículos Eléctricos",
-    "subtitle": "Agrega hasta 3 vehículos para comparar lado a lado",
+    "subtitle": "Agrega hasta 5 vehículos para comparar lado a lado",
     "empty": "No hay vehículos seleccionados para comparar",
     "emptyDescription": "Explora nuestro catálogo de vehículos y agrega VE para comparar",
     "selectVehicles": "Seleccionar Vehículos para Comparar",
     "comparing": "Comparando {count} vehículos",
     "addMore": "Agregar otro vehículo",
-    "clear": "Limpiar todo"
+    "clear": "Limpiar todo",
+    "searchPlaceholder": "Buscar por marca o modelo...",
+    "noResults": "No se encontraron vehículos",
+    "specifications": "Especificaciones",
+    "pricing": "Precios",
+    "basePrice": "Precio Base",
+    "maxPrice": "Precio Máximo",
+    "ratingSafety": "Calificación y Seguridad",
+    "batteryRange": "Batería y Autonomía",
+    "status": "Estado",
+    "markets": "Mercados Disponibles"
   },
   "reviews": {
     "title": "Reseñas de Clientes",

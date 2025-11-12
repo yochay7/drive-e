@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { useParams, useRouter } from 'next/navigation';
 import { evDatabase, filterEVs, sortEVs, getAllBrands } from '@/data/evs';
 import { FilterOptions, SortOption } from '@/types/ev';
 import { MagnifyingGlassIcon, FunnelIcon } from '@heroicons/react/24/outline';
+import { getUnitPreference, saveUnitPreference } from '@/utils/location';
 
 export default function Home() {
   const tVehicles = useTranslations('vehicles');
@@ -17,7 +18,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [showFilters, setShowFilters] = useState(false);
   const [sortBy, setSortBy] = useState<SortOption>('rating-desc');
-  const [useMetric, setUseMetric] = useState(false);
+  const [useMetric, setUseMetric] = useState(true); // Default to metric, will be updated by useEffect
   const [filters, setFilters] = useState<Partial<FilterOptions>>({
     brands: [],
     priceRange: [0, 200000],
@@ -29,6 +30,17 @@ export default function Home() {
   const brands = getAllBrands();
   const availableSeats = [4, 5, 7];
   const drivetrains = ['RWD', 'FWD', 'AWD'];
+
+  // Initialize unit preference based on location/localStorage
+  useEffect(() => {
+    const preference = getUnitPreference();
+    setUseMetric(preference);
+  }, []);
+
+  // Save unit preference when it changes
+  useEffect(() => {
+    saveUnitPreference(useMetric);
+  }, [useMetric]);
 
   // Filter and sort EVs for the table
   const filteredAndSortedEVs = useMemo(() => {
@@ -96,12 +108,15 @@ export default function Home() {
     setSearchQuery('');
   };
 
-  const hasActiveFilters =
-    searchQuery ||
-    (filters.brands && filters.brands.length > 0) ||
-    (filters.seats && filters.seats.length > 0) ||
-    (filters.drivetrain && filters.drivetrain.length > 0) ||
-    (filters.rangeMin && filters.rangeMin > 0);
+  // Calculate active filter count
+  const activeFilterCount = 
+    (filters.brands?.length || 0) + 
+    (filters.seats?.length || 0) + 
+    (filters.drivetrain?.length || 0) + 
+    ((filters.rangeMin && filters.rangeMin > 0) ? 1 : 0) + 
+    ((filters.priceRange && (filters.priceRange[0] > 0 || filters.priceRange[1] < 200000)) ? 1 : 0);
+
+  const hasActiveFilters = searchQuery || activeFilterCount > 0;
 
   // Unit conversions
   const convertRange = (miles: number) => useMetric ? Math.round(miles * 1.60934) : miles;
@@ -177,14 +192,10 @@ export default function Home() {
             className="flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-dark-border rounded-lg bg-white dark:bg-dark-card hover:bg-gray-50 dark:hover:bg-gray-700"
           >
             <FunnelIcon className="w-5 h-5" />
-            Filters
-            {hasActiveFilters && (
-              <span className="px-2 py-0.5 bg-primary-600 text-white text-xs rounded-full">
-                {(filters.brands?.length || 0) + (filters.seats?.length || 0) + (filters.drivetrain?.length || 0) + 
-                 ((filters.rangeMin && filters.rangeMin > 0) ? 1 : 0) + 
-                 ((filters.priceRange && (filters.priceRange[0] > 0 || filters.priceRange[1] < 200000)) ? 1 : 0)}
-              </span>
-            )}
+            <span>
+              {tVehicles('filters')}
+              {activeFilterCount > 0 && ` (${activeFilterCount})`}
+            </span>
           </button>
         </div>
 

@@ -34,3 +34,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+DEPLOYMENT_GUIDE.md
+HETZNER_DEPLOYMENT.md
+COMPARE_FEATURE_SUMMARY.md
+server-setup.sh

@@ -1834,6 +1834,7 @@ export function filterEVs(filters: Partial<FilterOptions>, evs: EVModel[] = evDa
 
 export function sortEVs(evs: EVModel[], sortBy: SortOption): EVModel[] {
   const sorted = [...evs];
+  
   switch (sortBy) {
     case 'price-asc':
       return sorted.sort((a, b) => a.pricing.basePrice - b.pricing.basePrice);

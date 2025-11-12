@@ -122,13 +122,23 @@
   },
   "compare": {
     "title": "比较电动汽车",
-    "subtitle": "添加最多3辆车进行并排比较",
+    "subtitle": "添加最多5辆车进行并排比较",
     "empty": "未选择要比较的车辆",
     "emptyDescription": "浏览我们的车辆目录并添加电动车进行比较",
     "selectVehicles": "选择要比较的车辆",
     "comparing": "正在比较{count}辆车",
     "addMore": "添加另一辆车",
-    "clear": "清除全部"
+    "clear": "清除全部",
+    "searchPlaceholder": "按品牌或型号搜索...",
+    "noResults": "未找到车辆",
+    "specifications": "规格参数",
+    "pricing": "定价",
+    "basePrice": "基础价格",
+    "maxPrice": "最高价格",
+    "ratingSafety": "评分和安全",
+    "batteryRange": "电池和续航",
+    "status": "状态",
+    "markets": "可用市场"
   },
   "reviews": {
     "title": "客户评论",
